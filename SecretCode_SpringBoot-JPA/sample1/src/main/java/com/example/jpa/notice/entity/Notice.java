@@ -27,4 +27,20 @@ public class Notice {
 
     @Column
     private LocalDateTime regDate;
+
+    @Column
+    private LocalDateTime updateDate;
+
+    @Column
+    private int hits;
+
+    @Column
+    private int likes;
+
+    @Column
+    private boolean deleted;
+
+    @Column
+    private LocalDateTime deletedDate;
+
 }
